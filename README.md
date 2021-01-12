@@ -7,14 +7,41 @@ This C++ program prompts the user for a quote and the nfor an author, it then pr
 ```
 What is the quote? The way to get started is to quit talking and begin doing.
 Who said it? Walt Disney
+
 Walt Disney says: “The way to get started is to quit talking and begin doing.”
 ```
 
 ## Exercise 2: Temperature Conversion
 This C++ program converts temperatures from Farenheit, Centigrade and Kelvin. It prompts the user for a temperature and if it's in Farenheit, Centigrade or Kelvin and outputs conversions in the two remaining temperatures.
 
+Example output:
+```
+Please enter the starting temperature: 60.1
+Press 'C' to convert from Centigrade to Fahrenheit and Kelvin.
+Press ‘F’ to convert from Fahrenheit to Centigrade and Kelvin.
+Press 'K' to convert from Kelvin to Centigrade and Fahrenheight
+
+Your choice: F
+60.1 degrees Fahrenheit is 15.6111 degrees Centigrade
+60.1 degrees Fahrenheit is 288.761 degrees Kelvin
+```
+
 ## Exercise 3: Area of a Rectangle Room
 A C++ program that prompts the user for the length and width of a room, either in feet or meters, then display the area in both feet and meters squared;
+
+Example output:
+```
+Enter 'F' to use foot
+Enter 'M' to use meters
+
+Choice: F
+Room length:  15
+Room width:  20
+
+Your room's dimension is 15 by 20 foot, the area is:
+300 square foot
+27.8709 square meters
+```
 
 ## Number Guesser:
 A C++ ‘guess the number’ game that supports three levels of difficulty; level 1 is limited to numbers 1..10, level 2 is limited to numbers 1..100 and level 3 is limited to numbers 1..1000. It prompts the user to select a difficulty level before the game begins. The program picks a random number and prompts the player to ‘guess’; each time the player ‘guesses’ the program provides a hint (e.g., too low, too high).
@@ -23,10 +50,12 @@ The program logs the number of guesses and once correct tells the player how man
 ```
 Let’s play ‘Guess the Number’
 Please pick a difficulty level (1, 2 or 3)? 1
+
 Great, I have randomly picked a number in the range 1 - 10
 What’s your guess? 5
 Too low, guess again: 8
 Too high, guess again: 7
+
 Well done, most impressive! the number was 7 – you got it in 3 guesses
 Do you want to play again (Y/N)? N
 No problem, see you later.
